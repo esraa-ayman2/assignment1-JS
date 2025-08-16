@@ -255,23 +255,23 @@
 //Q17
 //17- Write a program to find maximum between two numbers
 
-var num1 = +window.prompt("Enter the first number please:");
-var num2 = +window.prompt("Enter the second number please:");
-switch (true) {
-  case num1 > num2:
-    console.log("Max = " + num1);
-    break;
+// var num1 = +window.prompt("Enter the first number please:");
+// var num2 = +window.prompt("Enter the second number please:");
+// switch (true) {
+//   case num1 > num2:
+//     console.log("Max = " + num1);
+//     break;
 
-  case num2 > num1:
-    console.log("Max = " + num2);
-    break;
-  case num1 == num2: {
-    console.log("Both numbers are equal: " + num1);
-    break;
-  }
-  default:
-    window.alert("Enter a valid integer");
-}
+//   case num2 > num1:
+//     console.log("Max = " + num2);
+//     break;
+//   case num1 == num2: {
+//     console.log("Both numbers are equal: " + num1);
+//     break;
+//   }
+//   default:
+//     window.alert("Enter a valid integer");
+// }
 //Q18
 //18- Write a program to check whether a number is even or odd
 
